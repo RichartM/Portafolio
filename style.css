@@ -1,0 +1,21 @@
+.imgYo{
+    float: right;
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+    border-radius: 50%;    
+}
+
+#carouselExampleCaptions{
+    width: 60%;
+    height: 60%;
+    align-items: center;
+    margin-left: 30%;
+    width: 600px;
+    height: 400px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
