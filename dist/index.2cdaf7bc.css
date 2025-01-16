@@ -1,0 +1,192 @@
+.imgYo {
+  float: right;
+  object-fit: cover;
+  border-radius: 50%;
+  width: 30%;
+  height: 30%;
+}
+
+#carouselExampleCaptions {
+  align-items: center;
+  width: 600px;
+  height: 400px;
+  margin-left: 30%;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+}
+
+h9 {
+  text-align: left;
+  border-radius: 0%;
+  justify-content: left;
+  justify-items: left;
+  margin-top: 3%;
+  position: absolute;
+  bottom: 8px;
+  left: 2px;
+}
+
+.carousel {
+  max-width: 600px;
+  max-height: 400px;
+  margin: auto;
+}
+
+.carousel img {
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@keyframes square-animation {
+  0% {
+    top: 0;
+    left: 0;
+  }
+
+  10.5% {
+    top: 0;
+    left: 0;
+  }
+
+  12.5% {
+    top: 0;
+    left: 32px;
+  }
+
+  23% {
+    top: 0;
+    left: 32px;
+  }
+
+  25% {
+    top: 0;
+    left: 64px;
+  }
+
+  35.5% {
+    top: 0;
+    left: 64px;
+  }
+
+  37.5% {
+    top: 32px;
+    left: 64px;
+  }
+
+  48% {
+    top: 32px;
+    left: 64px;
+  }
+
+  50% {
+    top: 32px;
+    left: 32px;
+  }
+
+  60.5% {
+    top: 32px;
+    left: 32px;
+  }
+
+  62.5% {
+    top: 64px;
+    left: 32px;
+  }
+
+  73% {
+    top: 64px;
+    left: 32px;
+  }
+
+  75% {
+    top: 64px;
+    left: 0;
+  }
+
+  85.5% {
+    top: 64px;
+    left: 0;
+  }
+
+  87.5% {
+    top: 32px;
+    left: 0;
+  }
+
+  98% {
+    top: 32px;
+    left: 0;
+  }
+
+  100% {
+    top: 0;
+    left: 0;
+  }
+}
+
+.loader2 {
+  width: 0;
+  height: 47px;
+  position: absolute;
+  top: 13%;
+  right: 10%;
+  transform: rotate(50deg);
+}
+
+.loader {
+  width: 0;
+  height: 47px;
+  position: absolute;
+  top: 13%;
+  right: 90%;
+  transform: rotate(50deg);
+}
+
+.loader-square {
+  background: #000000da center / cover fixed;
+  border-radius: 0;
+  width: 28px;
+  height: 28px;
+  margin: 2px;
+  animation: 10s ease-in-out infinite both square-animation;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.loader-square:nth-of-type(0) {
+  animation-delay: 0s;
+}
+
+.loader-square:first-of-type {
+  animation-delay: -1.42857s;
+}
+
+.loader-square:nth-of-type(2) {
+  animation-delay: -2.85714s;
+}
+
+.loader-square:nth-of-type(3) {
+  animation-delay: -4.28571s;
+}
+
+.loader-square:nth-of-type(4) {
+  animation-delay: -5.71429s;
+}
+
+.loader-square:nth-of-type(5) {
+  animation-delay: -7.14286s;
+}
+
+.loader-square:nth-of-type(6) {
+  animation-delay: -8.57143s;
+}
+
+.loader-square:nth-of-type(7) {
+  animation-delay: -10s;
+}
+/*# sourceMappingURL=index.2cdaf7bc.css.map */
