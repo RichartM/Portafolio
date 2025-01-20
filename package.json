@@ -2,16 +2,16 @@
   "name": "portafolio-web",
   "version": "1.0.0",
   "description": "\"# Portafolio\"",
-  "main": "index.js",
   "scripts": {
-    "start": "parcel src/index.html",  
+    "start": "parcel src/index.html",
     "build": "parcel build src/index.html --dist-dir dist"
   },
   "dependencies": {
-    "bootstrap": "^5.3.3"  
-    },
+    "bootstrap": "^5.3.3"
+  },
   "devDependencies": {
-    "parcel": "^2.13.3" 
+    "parcel": "^2.13.3",
+    "svgo": "^3.3.2"
   },
   "repository": {
     "type": "git",
